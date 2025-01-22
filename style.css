@@ -1,0 +1,384 @@
+*{
+	margin:0px;
+	font-family:arial;
+	border:border-box;
+	padding:0px;
+
+}
+.navbar{
+	height:60px;
+	background-color:#1e852a;
+	color:#eefced;
+    display: flex;
+    align-items:center;
+}
+.navbar2{
+	height:39px;
+	background-color:#032901;
+	color:#dcfadf;
+	display:flex;
+	align-items:center;
+}
+.content1 {
+    height: 300px;
+    width: 100%; 
+    background-image: url("./images/amozoncontent1.jpg");
+    background-size: cover;
+    background-position:center top; 
+    display: flex; 
+    justify-content: space-between;
+  }
+}
+.nav-logo{
+	height:50px;
+	width:100px;
+	padding-right:10px;
+}
+.logo{
+	background-image: url('./images/Amazon-Logo.png');
+	background-size: cover;
+	height:50px;
+	width:105px;
+    display:flex;
+}
+.border{
+	border:1px solid transparent;
+	margin-left:13px;
+}
+.border:hover{
+	border:1px solid white;
+}
+.text1{
+	color:#CCCCCC;
+	font-size: 12px;
+	margin-left:15px;
+}
+.text2{
+	color:#FFFFFF;
+	font-size:14px;
+	margin-left:3px;
+}
+.add-icon{
+	display:flex;
+	align-items: center;
+}
+.nav-search{
+	display:flex;
+	
+}
+.cate{
+	color:#0f1111;
+	background-color: #ffffff;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width:50px;
+	text-align:center;
+}
+.search{
+	width:543px;
+	height:38px;
+}
+::placeholder{
+	font-weight: bold;
+	font-size:15px;
+}
+.search-icon{
+	background-color: #75063f;
+	width:40px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	padding-top: 13px;
+	font-size:1.2rem;
+}
+#region{
+	background-color: transparent;
+	color:white;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px
+}
+.nav-region{
+	display:flex;
+
+}
+.opt{
+	color:white;
+	background-color:#032901;
+	border-bottom-left-radius:5px;
+
+}
+.istsi{
+	font-weight:lighter;
+	font-size:12px;
+}
+.sndsi{
+	font-weight:bolder;
+}
+.png{
+	font-size: 25px;
+}
+.cart{
+	padding-top:10px;
+	padding-left: 5px;
+}
+.nav-cart{
+	display:flex;
+}
+.navbar2-all{
+	display:flex;
+
+}
+.bar{
+	text-align: center;
+	padding-top: 3px;
+}
+#all1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+	padding-left:5px ;
+	padding-top: 3px;
+}
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.lesssign, .highsign {
+    font-size: 30px;
+    color: #f2f2f2;
+    padding-top: 100px;
+}
+.lesssign{
+    padding-left: 20px;
+}
+.highsign{
+	padding-right:20px;
+}
+.shop-section{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	background-color: #e1e3de;
+}
+.box{
+	background-color:#f2f5ed;
+	height:410px;
+	width:23%;
+	margin-top: 15px;
+}
+.headingsshopping{
+	padding-top: 5px;
+	padding-left:5px;
+}
+.images-content{
+	background-size: cover;
+	height:300px;
+	background-position:center;	;
+	padding-top:15px;
+	margin-top:15px;
+}
+.content-box{
+	margin-left: 15px;
+	margin-right:15px;
+	padding-top:10px;
+
+}
+.content-box a{
+	color:#007185;
+	text-decoration: none;
+	padding-bottom:40px;
+}
+.content-box p{
+		padding-top:15px;
+}
+.content-box a:hover{
+	color:red;
+}
+.box6{
+	height:440px;
+}
+.box7{
+	height:470px;
+}
+.box9{
+	margine-top:25px;
+}
+.content-box2{
+	padding-top:15px;
+	padding-right:15px;
+	padding-left:15px;
+}
+.image-content2{
+	background-size: cover;
+	height:130px;
+	width:130px;
+	background-position:center;
+	padding-top:15px;
+	margin-top:15px;
+
+}
+.image-content3{
+	background-size: cover;
+	height:130px;
+	width:130px;
+	background-position:center;
+	padding-top:15px;
+	margin-top:15px;
+	margin-left:15px;
+	
+
+}
+.twoinrow{
+	display:flex;
+}
+/* Main container styling */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+.section {
+  margin-bottom: 30px;
+}
+
+/* Section title styling */
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Grid layout for cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+/* Card styling */
+.card {
+  background-color: #f0f0f0; /* Light background for cards */
+  color: black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Image inside cards */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.card img:hover {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Link styling */
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+.signinbutton{
+	height: 150px;
+	width:100%;
+}
+.datasignin{
+	text-align: center;
+	padding-top: 50px;
+	border-size:2px;
+	border-color: black;
+	
+}
+#signin{
+	background-color: #caff0a;
+	border: none;
+	height:29px;
+	width:199px;
+	border-radius:30px ;
+	padding:0px 10px 0px 11px;
+	font-size: border;
+
+}
+#newcostomer{
+	font-weight: light;
+	font-size: 10px;
+}
+.backtop{
+	height:40px;
+	width:100%;
+	margin: 0px;
+    padding:0px;
+	background-color: #37475a;
+	text-align: center;
+	padding-top:20px;
+	color:white;
+	font-size:13px;
+}
+.foot-panel1{
+	background-color:#232f3e;
+	color:white;
+	height:300px;
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:30px;
+
+}
+ul a{
+	display:block;
+    margin-top:10px;
+	font-size:0.85rem;
+	color:#dddddd;
+}
+.foot-panel2{
+	background-color: #232f3e;
+	height:70px;
+	border-top: 0.5px solid white;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo2{	
+	background-image: url('./images/Amazon-Logo.png');
+	background-size: cover;
+	height:50px;
+	width:100px;
+ }
+.foot-panel3{
+	background-color:#131a22;
+	color:#dddddd;
+	height:80px;
+}
+.pages{
+	font-size:0.7rem;
+	text-align: center;
+	align-items: center;
+	padding-top: 25px;
+}
+.copyright{
+	font-size:0.7rem;
+	text-align: center;
+	align-items: center;
+	padding-top: 5px;
+}
